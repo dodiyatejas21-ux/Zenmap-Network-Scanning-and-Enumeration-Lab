@@ -43,3 +43,33 @@ Zenmap should display that the target host **192.168.126.131 is up**.
 The Metasploitable 2 target was successfully identified and found to be reachable on the network.
 
 <img width="1711" height="740" alt="Screenshot 2026-08-20 132638" src="https://github.com/user-attachments/assets/cf65838c-928c-49f3-a0aa-851cd1a77acb" />
+
+## Step 2: Quick Scan
+In this step, Zenmap is used to perform a quick scan of the Metasploitable 2 target to identify commonly used open ports and services.
+
+### Target IP
+192.168.126.131
+
+### Profile
+Quick Scan
+
+### Steps
+1. Open Zenmap.
+2. Enter `192.168.126.131` in the **Target** field.
+3. Select **Quick Scan** from the **Profile** dropdown.
+4. Click the **Scan** button.
+5. Wait for the scan to complete.
+6. Check the **Nmap Output** and **Ports/Hosts** tabs for the results.
+
+### Purpose
+To quickly identify open ports and available services on the target machine.
+
+### Result
+The scan displays the open ports and services detected on the Metasploitable 2 target.
+
+### Target
+Metasploitable 2 – Authorized Lab Target
+
+<img width="1715" height="820" alt="Screenshot 2026-08-20 133826" src="https://github.com/user-attachments/assets/ba9d3482-7904-4bb7-a187-3573fbd3bb12" />
+<img width="1720" height="816" alt="Screenshot 2026-08-20 133843" src="https://github.com/user-attachments/assets/cfb1f63e-65e7-480d-8e71-3d3eb3ce855b" />
+

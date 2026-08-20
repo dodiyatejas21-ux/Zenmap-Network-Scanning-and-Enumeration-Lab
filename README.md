@@ -167,3 +167,32 @@ Metasploitable 2 – Authorized Lab Target
 <img width="1916" height="868" alt="image" src="https://github.com/user-attachments/assets/4f11122a-be17-40b4-b325-269d69fb893d" />
 <img width="1914" height="868" alt="image" src="https://github.com/user-attachments/assets/e435aad2-01ba-49fc-b5a6-abed323de492" />
 
+## Step 6: Quick Scan Plus
+In this step, Zenmap is used to perform a Quick Scan Plus on the Metasploitable 2 target to quickly identify commonly used open ports and services.
+
+### Target IP
+192.168.126.131
+
+### Profile
+Quick Scan Plus
+
+### Steps
+1. Open Zenmap.
+2. Enter `192.168.126.131` in the **Target** field.
+3. Select **Quick Scan Plus** from the **Profile** dropdown.
+4. Click the **Scan** button.
+5. Wait for the scan to complete.
+6. Check the **Nmap Output** and **Ports/Hosts** tabs.
+
+### Purpose
+To quickly identify open ports and available services on the target machine.
+
+### Result
+Zenmap displays the detected open ports and services on the Metasploitable 2 target.
+
+### Target
+Metasploitable 2 – Authorized Lab Target
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a76b525a-780a-4496-a3d5-e0fc21fe454e" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/70a53935-cfc9-424e-9450-feea6d3486cb" />
+

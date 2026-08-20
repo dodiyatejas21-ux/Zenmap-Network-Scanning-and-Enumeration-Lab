@@ -138,6 +138,32 @@ Metasploitable 2 – Authorized Lab Target
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/91734b53-36ca-4e50-ae37-561ff8be5695" />
 
+## Step 5: Regular Scan
+In this step, Zenmap is used to perform a regular Nmap scan on the Metasploitable 2 target.
 
+### Target IP
+192.168.126.131
 
+### Profile
+Regular Scan
+
+### Steps
+1. Open Zenmap.
+2. Enter `192.168.126.131` in the **Target** field.
+3. Select **Regular Scan** from the **Profile** dropdown.
+4. Click the **Scan** button.
+5. Wait for the scan to complete.
+6. Check the **Nmap Output** and **Ports/Hosts** tabs.
+
+### Purpose
+To identify open ports and the services available on the target machine using the default Nmap scanning method.
+
+### Result
+The Regular Scan displays the open ports and available services detected on the Metasploitable 2 target.
+
+### Target
+Metasploitable 2 – Authorized Lab Target
+
+<img width="1916" height="868" alt="image" src="https://github.com/user-attachments/assets/4f11122a-be17-40b4-b325-269d69fb893d" />
+<img width="1914" height="868" alt="image" src="https://github.com/user-attachments/assets/e435aad2-01ba-49fc-b5a6-abed323de492" />
 

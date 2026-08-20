@@ -19,3 +19,27 @@ Zenmap is the graphical user interface (GUI) for Nmap, a network scanning and se
 - **VMware** – Used to create the virtual lab environment.
 - **Network Connection** – Required for communication between the virtual machines.
 - **Basic Networking Knowledge** – Required to understand IP addresses, ports, and services.
+
+## Step 1: Launch Zenmap and Identify Target
+In this step, Zenmap is opened and the IP address of the Metasploitable 2 target machine is entered for scanning.
+
+### Target IP
+192.168.126.131
+
+### Steps
+1. Open Zenmap from the Applications menu.
+2. Enter `192.168.126.131` in the **Target** field.
+3. Select **Ping scan** from the **Profile** dropdown.
+4. Click the **Scan** button.
+5. Wait for the scan to complete and check the result.
+
+### Purpose
+To verify that the Metasploitable 2 target machine is active and reachable on the network.
+
+### Expected Result
+Zenmap should display that the target host **192.168.126.131 is up**.
+
+### Result
+The Metasploitable 2 target was successfully identified and found to be reachable on the network.
+
+<img width="1711" height="740" alt="Screenshot 2026-08-20 132638" src="https://github.com/user-attachments/assets/cf65838c-928c-49f3-a0aa-851cd1a77acb" />

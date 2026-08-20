@@ -11,3 +11,11 @@ Zenmap is the graphical user interface (GUI) for Nmap, a network scanning and se
 - To identify the operating system of the target machine.
 - To analyze and understand Zenmap scan results.
 - To gain practical experience with network scanning in an authorized lab environment.
+
+## Requirements
+- **Kali Linux** – Used as the main operating system.
+- **Zenmap** – Used for GUI-based network scanning.
+- **Metasploitable 2** – Used as the target machine.
+- **VMware** – Used to create the virtual lab environment.
+- **Network Connection** – Required for communication between the virtual machines.
+- **Basic Networking Knowledge** – Required to understand IP addresses, ports, and services.

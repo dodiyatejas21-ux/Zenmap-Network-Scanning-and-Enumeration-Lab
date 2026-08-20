@@ -196,3 +196,33 @@ Metasploitable 2 – Authorized Lab Target
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a76b525a-780a-4496-a3d5-e0fc21fe454e" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/70a53935-cfc9-424e-9450-feea6d3486cb" />
 
+## Step 7: Scan Results Analysis
+In this step, the results obtained from different Zenmap scans are reviewed and analyzed to understand the target system.
+
+### Target IP
+192.168.126.131
+
+### Analysis
+- The target host was successfully detected and found to be active.
+- Multiple open ports were identified.
+- Running network services were detected.
+- Service and version information was obtained.
+- The operating system was identified as a Linux-based system.
+- Different Zenmap scan profiles provided different levels of network information.
+
+### Purpose
+To analyze the scan results and understand the open ports, services, and operating system information of the Metasploitable 2 target.
+
+### Result
+The Zenmap scans successfully provided useful information about the Metasploitable 2 target and its network services.
+
+## Result Summary
+Using Zenmap GUI, the target was successfully scanned. The scan displayed the open ports, running services, and service details of the target system. The results were analyzed through the Zenmap graphical interface.
+
+## Conclusion
+Using Zenmap GUI, the target system was successfully scanned. The scan helped identify open ports and running services, providing basic information about the target's network security.
+
+## Regards
+Tejas Dodiya
+Cyber Security Student
+

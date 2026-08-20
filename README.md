@@ -108,8 +108,35 @@ Metasploitable 2 – Authorized Lab Target
 <img width="1915" height="426" alt="Screenshot 2026-08-20 140452" src="https://github.com/user-attachments/assets/0a44d5dd-2525-4066-b3a4-ce987169ee96" />
 <img width="1910" height="866" alt="Screenshot 2026-08-20 140824" src="https://github.com/user-attachments/assets/16c7f31f-fa2f-4cdb-a946-2c13bb3403e2" />
 
+## Step 4: OS Detection
+In this step, Zenmap is used to identify the operating system of the Metasploitable 2 target machine.
 
+### Target IP
+192.168.126.131
 
+### Profile
+OS Detection
+
+### Command
+nmap -O 192.168.126.131
+
+### Steps
+1. Open Zenmap.
+2. Enter `192.168.126.131` in the **Target** field.
+3. Select the OS detection profile or use the command `nmap -O 192.168.126.131`.
+4. Click the **Scan** button.
+5. Check the **Nmap Output** tab for OS information.
+
+### Purpose
+To identify the operating system running on the target machine.
+
+### Result
+Zenmap attempts to identify the operating system and provides the detected OS information.
+
+### Target
+Metasploitable 2 – Authorized Lab Target
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/91734b53-36ca-4e50-ae37-561ff8be5695" />
 
 
 

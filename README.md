@@ -73,3 +73,44 @@ Metasploitable 2 – Authorized Lab Target
 <img width="1715" height="820" alt="Screenshot 2026-08-20 133826" src="https://github.com/user-attachments/assets/ba9d3482-7904-4bb7-a187-3573fbd3bb12" />
 <img width="1720" height="816" alt="Screenshot 2026-08-20 133843" src="https://github.com/user-attachments/assets/cfb1f63e-65e7-480d-8e71-3d3eb3ce855b" />
 
+## Step 3: Intense Scan
+In this step, Zenmap is used to perform an intense scan to collect detailed information about the Metasploitable 2 target.
+
+### Target IP
+192.168.126.131
+
+### Profile
+Intense Scan
+
+### Steps
+1. Open Zenmap.
+2. Enter `192.168.126.131` in the **Target** field.
+3. Select **Intense Scan** from the **Profile** dropdown.
+4. Click the **Scan** button.
+5. Wait for the scan to complete.
+6. Review the **Nmap Output** and **Ports/Hosts** tabs.
+
+### Purpose
+To collect detailed information about open ports, running services, service versions, and the operating system.
+
+### Result
+The Intense Scan provides detailed information about the Metasploitable 2 target and its running network services.
+
+### Target
+Metasploitable 2 – Authorized Lab Target
+
+<img width="1919" height="869" alt="Screenshot 2026-08-20 135106" src="https://github.com/user-attachments/assets/b11c19eb-1993-4a4a-8fac-ec5ba31ced55" />
+<img width="1905" height="865" alt="Screenshot 2026-08-20 135526" src="https://github.com/user-attachments/assets/bf6e2d0c-235f-45f8-8ae7-a2bad31b2510" />
+<img width="1919" height="870" alt="Screenshot 2026-08-20 135647" src="https://github.com/user-attachments/assets/acbc8963-21c3-4037-9a9b-1622f3c65a88" />
+<img width="1912" height="867" alt="Screenshot 2026-08-20 135828" src="https://github.com/user-attachments/assets/a18f2174-636f-4b26-9109-7c8aad9fb6d3" />
+<img width="1914" height="862" alt="Screenshot 2026-08-20 140101" src="https://github.com/user-attachments/assets/0b83f719-9a9c-42a2-876a-dc5952daa00a" />
+<img width="1917" height="873" alt="Screenshot 2026-08-20 140315" src="https://github.com/user-attachments/assets/6d9ec41d-52cb-4b5c-a1ca-517c5ccdac62" />
+<img width="1915" height="426" alt="Screenshot 2026-08-20 140452" src="https://github.com/user-attachments/assets/0a44d5dd-2525-4066-b3a4-ce987169ee96" />
+<img width="1910" height="866" alt="Screenshot 2026-08-20 140824" src="https://github.com/user-attachments/assets/16c7f31f-fa2f-4cdb-a946-2c13bb3403e2" />
+
+
+
+
+
+
+
